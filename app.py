@@ -46,9 +46,9 @@ if uploaded_file is not None:
     submit=st.button("Start Analyzing")
     
 else:
-     st.header("Nutritionist Expert Advice System")
+     st.header("Smart Image Descriptor System")
      st.markdown("---")
-     st.markdown("Welcome to the nutritionist expert advice system where you can simply upload the food image  and can see calaries of foods in the image and enquire about it.")
+     st.markdown("Welcome to our Image Descriptor System! This cutting-edge tool is designed to analyze and provide detailed descriptions of images you upload. Whether you're curious about the contents of a photo or need a comprehensive analysis for a project, our app has you covered.")
      st.markdown("Neeraj Kumar")
      col1, col2, col3 = st.columns([1,1,1])
      with col1:
