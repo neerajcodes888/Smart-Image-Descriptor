@@ -31,8 +31,8 @@ def input_image_setup(uploaded_file):
     
     
     
-st.set_page_config(page_title="Check Up")
-st.sidebar.header("Nutritionist Expert")
+st.set_page_config(page_title="Analyze")
+st.sidebar.header("Image Descriptor")
 
 uploaded_file = st.sidebar.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 image=""  
@@ -43,7 +43,7 @@ if uploaded_file is not None:
     image = Image.open(uploaded_file)
     st.image(image, caption="Uploaded Image.", use_column_width=True)
     input=st.text_input("Ask the question related to uploaded image only*: ",key="input")
-    submit=st.button("Start Check Up")
+    submit=st.button("Start Analyzing")
     
 else:
      st.header("Nutritionist Expert Advice System")
