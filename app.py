@@ -65,16 +65,16 @@ else:
 
 
 input_prompt="""
-You are an expert in nutritionist where you need to see the food items from the image
-               and calculate the total calories, also provide the details of every food items with calories intake
+You are an expert in giving description  where you need to see the  items from the image
+               and  also provide the details of every  items with 
                is below format
 
-               1. Item 1 - no of calories
-               2. Item 2 - no of calories
+               1. Item 1 -
+               2. Item 2 - 
                ----
                ----
                
-            give 1 recommendation regarding foods
+            give 1 recommendation regarding items
 
  and if question is not related to uploaded picture then simply tell out of context ,  do not provide wrong information. just say out of context
 """
