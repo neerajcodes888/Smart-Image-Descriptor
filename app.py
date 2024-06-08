@@ -58,7 +58,7 @@ else:
      with col3:
         st.link_button("Kaggle", "https://www.kaggle.com/neerajdata")
      st.markdown("---")
-     st.info('Smart Image Descriptor - Decribe your image now', icon=None)
+     st.info('Smart Image Descriptor - Describe your image now', icon=None)
      st.warning(' Upload  images  in (.jpg , .jpeg , .png)format Only')
 
 
