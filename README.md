@@ -23,7 +23,7 @@ The Image Descriptor System is an advanced tool that leverages the power of AI t
 ## 🎬 Demo
 Check out our live demo to see the Image Descriptor System in action!
 
-![Demo GIF](demo.gif)
+![Demo GIF](image_describe.gif)
 
 ## 🌐 Deployed Link
 Access the live version of the Image Descriptor System [here](https://smart-image-descriptor.onrender.com/).
