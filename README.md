@@ -44,7 +44,7 @@ To install and run the Image Descriptor System locally, follow these steps:
     ```
 4. **Run the application**
     ```bash
-    python app.py
+    streamlit run app.py
     ```
 
 ## 🚀 Usage
