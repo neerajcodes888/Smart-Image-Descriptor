@@ -25,7 +25,7 @@ Check out our live demo to see the Image Descriptor System in action!
 ![Demo GIF](demo.gif)
 
 ## 🌐 Deployed Link
-Access the live version of the Image Descriptor System [here](https://your-deployed-link.com).
+Access the live version of the Image Descriptor System [here](https://smart-image-descriptor.onrender.com/).
 
 ## 🛠️ Installation
 To install and run the Image Descriptor System locally, follow these steps:
