@@ -8,6 +8,7 @@ Welcome to the Image Descriptor System! This cutting-edge tool provides detailed
 - [Deployed Link](#deployed-link)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Project Workflow](#project-workflow)
 - [Future Scope](#future-scope)
 - [Conclusion](#conclusion)
 - [Credits](#credits)
