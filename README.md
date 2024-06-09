@@ -1,6 +1,7 @@
 # 📷 Smart Image Descriptor System
 
-Welcome to the Image Descriptor System! This cutting-edge tool provides detailed analyses and descriptions of your uploaded images. Whether you're curious about the contents of a photo or require a comprehensive analysis, our system delivers precise and insightful descriptions. Designed for ease of use and high accuracy.
+![image](https://github.com/neerajcodes888/Smart-Image-Descriptor/assets/98253646/b28a1118-098a-4271-9676-f0ebeb8385c5)
+
 
 ## 📜 Table of Contents
 - [Introduction](#introduction)
