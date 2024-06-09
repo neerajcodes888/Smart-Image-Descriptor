@@ -55,6 +55,16 @@ To use the Image Descriptor System:
 2. Upload an image using the upload button.
 3. Receive a detailed description of the image.
 
+## 🔄 Project Workflow
+The project workflow consists of several key steps to ensure the system operates smoothly and efficiently:
+
+1. **Image Upload**: The user uploads an image through the web interface.
+2. **Pre-processing**: The system performs pre-processing on the image, such as resizing and normalization.
+3. **Model Inference**: The processed image is passed through a pre-trained AI model to generate a description.
+4. **Post-processing**: The raw output from the model is refined and formatted for readability.
+5. **Display Results**: The final description is displayed to the user in an intuitive interface.
+
+
 ## 🚀 Future Scope
 We have exciting plans to enhance the Image Descriptor System, including:
 - Adding support for video analysis
