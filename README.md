@@ -32,7 +32,7 @@ To install and run the Image Descriptor System locally, follow these steps:
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/imagedescriptor.git
+    git clone https://neerajcodes888/Smart-Image-Descriptor.git
     ```
 2. **Navigate to the project directory**
     ```bash
