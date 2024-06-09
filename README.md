@@ -36,7 +36,7 @@ To install and run the Image Descriptor System locally, follow these steps:
     ```
 2. **Navigate to the project directory**
     ```bash
-    cd imagedescriptor
+    cd Smart-Image-Descriptor
     ```
 3. **Install the dependencies**
     ```bash
