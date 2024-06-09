@@ -70,4 +70,4 @@ This project wouldn't have been possible without:
 - The open-source community for their continuous support and contributions
 
 ## 📄 License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the Apache 2.0 License. See the [LICENSE](https://github.com/neerajcodes888/Smart-Image-Descriptor/blob/main/LICENSE) file for details.
