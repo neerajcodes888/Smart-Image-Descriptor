@@ -1,4 +1,4 @@
-# 📷 Image Descriptor System
+# 📷 Smart Image Descriptor System
 
 Welcome to the Image Descriptor System! This cutting-edge tool provides detailed analyses and descriptions of your uploaded images. Whether you're curious about the contents of a photo or require a comprehensive analysis, our system delivers precise and insightful descriptions. Designed for ease of use and high accuracy.
 
@@ -73,7 +73,16 @@ We have exciting plans to enhance the Image Descriptor System, including:
 - Developing a mobile app version
 
 ## 🎉 Conclusion
-Thank you for using the Image Descriptor System! We hope it provides valuable insights and enhances your interaction with images.
+### Project Efficiency
+The Image Descriptor System is designed to provide high accuracy in image description using advanced AI models. The system has been optimized for speed and efficiency, ensuring quick turnaround times even for high-resolution images. 
+
+### Usage Workflow
+1. **User Uploads Image**: The user uploads an image through the intuitive interface.
+2. **Image Processing**: The system processes the image using a pre-trained AI model.
+3. **Generate Description**: A detailed description of the image is generated, highlighting key elements and features.
+4. **Display Results**: The description is displayed to the user in a readable format.
+
+This workflow ensures a smooth and efficient user experience, allowing users to gain insights into their images quickly and accurately.
 
 ## 🙏 Credits
 This project wouldn't have been possible without:
