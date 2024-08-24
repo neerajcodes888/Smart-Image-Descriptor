@@ -95,10 +95,10 @@ import google.generativeai as genai
 from PIL import Image
 from dotenv import load_dotenv
 
-# Load environment variables
+
 load_dotenv()
 
-# Configure the Generative AI model with the API key
+
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 def get_gemini_response(input_text, image_data, prompt):
@@ -124,10 +124,10 @@ def input_image_setup(uploaded_file):
 st.set_page_config(page_title="Analyze")
 st.sidebar.header("Image Descriptor")
 
-# File uploader in the sidebar
+
 uploaded_file = st.sidebar.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 
-# Initialize variables
+
 image = ""
 input_text = ""
 submit = 0
@@ -140,7 +140,7 @@ if uploaded_file is not None:
     submit = st.button("Start Analyzing")
     
 else:
-    # Main page content if no file is uploaded
+    
     st.header("Smart Image Descriptor System")
     st.markdown("---")
     st.markdown("Welcome to our Image Descriptor System! This cutting-edge tool is designed to analyze and provide detailed descriptions of images you upload. Whether you're curious about the contents of a photo or need a comprehensive analysis, just give it a try.")
@@ -156,7 +156,7 @@ else:
     st.info('Smart Image Descriptor - Describe your image now', icon=None)
     st.warning('Upload images in (.jpg, .jpeg, .png) format only.')
 
-# Input prompt for generating image descriptions
+
 input_prompt = """
 You are an expert in describing images. Analyze the items in the image and provide details in the following format:
 
@@ -172,7 +172,7 @@ if submit:
     try:
         image_data = input_image_setup(uploaded_file)
         response = get_gemini_response(input_text, image_data, input_prompt)
-        st.subheader("The Response is")
+        st.subheader("The Analysis says")
         st.write(response)
     except Exception as e:
         st.error(f"An error occurred: {str(e)}")
